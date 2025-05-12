@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .form{
+    background: linear-gradient(45deg,#00B1D2FF,#f9f9f9,#FDDB27FF);
+    background-size: 100% 100%;
+    width:12cm;
+    padding:10px 20px;
+    border-radius:10px;
+}
+label{
+    width:140px;
+    display:inline-block;
+    margin: 0.2%;;
+    font-size:16px;
+    font-weight:bold;
+}
+input{
+    padding:5px;
+    margin:5px;
+    font-size:16px;
+    border-radius:10px;
+    border: 1px solid #f9f9f9;
+    width:7cm;
+}
+input#submit{
+    margin-top:7px;
+    color:white;
+    font-weight:bold;
+    padding:4px;
+    background-color: pink;
+    align-content: center;
+}
+input#submit:hover{
+    background-color: green;
+    color:#f9f9f9;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color:aqua 24px;
+    font-size: 24px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>REGISTRATION HERE</h2>
+        <form>
+            <label>FULL NAME:</label>
+            <input type="text" placeholder="enter fullname" required>
+            <br>
+            <br>
+            <label>
+                EMAIL:
+            </label>
+            <INPUT TYPE="EMAIL" placeholder="enter email" required>
+                <BR> <br>
+                    <label>MOBILE NO.:
+                    </label>
+                    <INPUT TYPE="NUMBER" placeholder="enter mobile numver" required>
+                        <BR> <br>
+                            <LABEL>PASSWORD:</LABEL>
+                            <INPUT TYPE="PASSWORD" placeholder="enter password" required>
+                                <br> <br>
+                                <LABEL>CONFIRM PASSWORD:</LABEL>
+                                <INPUT TYPE="PASSWORD"placeholder="enter password" required>
+                                    <br> <br>
+                                    <input type="button" value="register" id="submit">
+                            
+        </form>
+        </div>
+</body>
+</html>

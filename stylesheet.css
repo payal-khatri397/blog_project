@@ -1,0 +1,42 @@
+.part1{
+    background:#05316D;
+    font-size:large;
+    color: beige;
+}
+.but1{
+    margin-left:16px;
+    color:black;
+    font-weight:bold;
+    padding:15px 32px;
+    background-color: pink;
+    text-align:center;
+    font-size: 13px;
+    margin-bottom: 13px;
+
+}
+.but1:hover{
+    background-color: green;
+    color:#f9f9f9;
+}
+.part2{
+    background: #f9f9f9ed;
+    margin-top: 22px;
+}
+.part3{
+    background: #f9f9f9ed;
+}
+.part4{
+    background: #f9f9f9ed;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part5{
+    vertical-align: top;
+    text-align: center;
+    background: #f9f9f9ed;
+}
+.part7{
+background:#05316D;
+color: #f9f9f9;
+}

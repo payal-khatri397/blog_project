@@ -1,0 +1,39 @@
+*{
+    background: linear-gradient(45deg,#d2001a,#7462ff);
+    background-size: 100% 100%;
+    width:12cm;
+    padding:10px 20px;
+    border-radius:10px;
+}
+label{
+    width:140px;
+    display:inline-block;
+    margin: 0.2%;;
+    font-size:16px;
+    font-weight:bold;
+}
+input{
+    padding:5px;
+    margin:5px;
+    font-size:16px;
+    border-radius:10px;
+    border: 1px solid #f9f9f9;
+    width:7cm;
+}
+input#submit{
+    margin-top:7px;
+    color:white;
+    font-weight:bold;
+    padding:4px;
+    background-color: #00BFFF;
+}
+input#submit:hover{
+    background-color: green;
+    color:#f9f9f9;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color:aqua 24px;
+    font-size: 24px;
+}
